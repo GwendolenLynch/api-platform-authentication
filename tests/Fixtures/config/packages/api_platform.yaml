@@ -1,0 +1,17 @@
+api_platform:
+    defaults:
+        pagination_enabled: true
+        pagination_client_items_per_page: true
+    collection:
+        pagination:
+            items_per_page_parameter_name: limit
+    mapping:
+        paths: ['%kernel.project_dir%/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+        api_keys:
+            apiKey:
+                name: Authorization
+                type: header

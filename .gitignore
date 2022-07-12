@@ -1,0 +1,13 @@
+/.env.local
+/.env.local.php
+/.env.*.local
+/.php-cs-fixer.cache
+/.phpunit.result.cache
+/config/jwt/*.pem
+/composer.lock
+/phpunit.xml
+/var/
+/vendor/
+
+
+
